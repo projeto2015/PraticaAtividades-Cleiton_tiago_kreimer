@@ -2,18 +2,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.senai.sc</groupId>
-	<artifactId>PraticaAtividades-</artifactId>
+	<artifactId>PraticaAtividades-Cleiton_tiago_kreimer</artifactId>
 	<version>01.00.00-00</version>
 	<packaging>war</packaging>
-	<name>Atividades Práticas - Cleiton_tiago_kreimer </name>
+	<name>Atividades Práticas - Cleiton tiago kreimer</name>
 	<description>
 		Projeto de práticas das aulas de teste de software SENAI.
 	</description>
 
 	<developers>
 		<developer>
-			<id>Cleiton</id>
-			<name>Cleiton Tiago kreimer.</name>
+			<id>cleiton</id>
+			<name>Cleiton Tiago kreimer</name>
 			<email>cleitonkreimer@gmail.com</email>
 		</developer>
 	</developers>
