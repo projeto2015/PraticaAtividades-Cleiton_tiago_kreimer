@@ -1,21 +1,41 @@
 package teste2015;
 
 public class OperacoesMatematicas {
-	
-	public static void main (String[] args) {
-		System.out.println(somaDoisValoresReais(15.6, 15.4));
+
+	public static Double somaDoisValoresReais(Double num1, Double num2) {
+		if (num1 != null && num2 != null) {
+			return num1 + num2;
+		}
+		throw new NumberFormatException(
+				"Você deve passar dois valores para o cálculo.");
 	}
-	public static double somaDoisValoresReais(Double num1, Double num2) {
-	if (num1 != null && num2 != null){
-		return num1 + num2;
+
+	public static Double SubtrairDoisValoresReais(Double num1, Double num2) {
+		if (num1 != null && num2 != null) {
+			return num1 - num2;
+		}
+		throw new NumberFormatException(
+				"Você deve passar dois valores para o cálculo.");
 	}
-	throw new NumberFormatException("Numero digitado e invalido");
+
+	public static Double multiplicaDoisValoresReais(Double num1, Double num2) {
+		if (num1 != null && num2 != null) {
+			return num1 * num2;
+		}
+		throw new NumberFormatException(
+				"Você deve passar dois valores para o c�lculo.");
 	}
-	
-public static double SubtrairDoisValoresReais(Double num1, Double num2) {
-if (num1 != null && num2 != null){
-	return num1 - num2;
-}
-throw new NumberFormatException("Numero digitado e invalido");
-}
+
+	public static Double divideDoisValoresReais(Double num1, Double num2) {
+		if (num2 == 0) {
+			throw new NumberFormatException(
+					"Não é possível dividir um número por zero.");
+		}
+		if (num1 != null && num2 != null) {
+			return num1 / num2;
+		}
+		throw new NumberFormatException(
+				"Você deve passar dois valores para o cálculo.");
+	}
+
 }
